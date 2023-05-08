@@ -68,7 +68,7 @@ const modals = () => {
         div.style.overflowY = 'scroll';
         div.style.visibility = 'hidden';
 
-        document.body.appendChild('div');
+        document.body.appendChild(div);
         let scrollWidth = div.offsetWidth - div.clientWidth;
         div.remove();
 
